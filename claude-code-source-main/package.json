@@ -1,0 +1,29 @@
+{
+  "name": "@douyin-oh/oh-code",
+  "version": "1.0.0",
+  "bin": {
+    "oh": "cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "author": "douyin-OH <support@example.com>",
+  "license": "MIT",
+  "description": "An AI-powered coding assistant that lives in your terminal.",
+  "scripts": {
+    "prepare": "node -e \"if (!process.env.AUTHORIZED) { console.error('ERROR: Direct publishing is not allowed.\\nPlease see the release workflow documentation to publish this package.'); process.exit(1); }\""
+  },
+  "dependencies": {},
+  "optionalDependencies": {
+    "@img/sharp-darwin-arm64": "^0.34.2",
+    "@img/sharp-darwin-x64": "^0.34.2",
+    "@img/sharp-linux-arm": "^0.34.2",
+    "@img/sharp-linux-arm64": "^0.34.2",
+    "@img/sharp-linux-x64": "^0.34.2",
+    "@img/sharp-linuxmusl-arm64": "^0.34.2",
+    "@img/sharp-linuxmusl-x64": "^0.34.2",
+    "@img/sharp-win32-arm64": "^0.34.2",
+    "@img/sharp-win32-x64": "^0.34.2"
+  }
+}
