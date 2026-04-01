@@ -5,16 +5,18 @@
 ---
 
 ## 📁 本仓库包含
-
-| 文件/文件夹 | 说明 |
-|-----------|------|
-| `claude-code-source-main/` | OH-code 源代码 |
-| `Claude Code CLI — 核心架构方案详解.xmind` | 架构方案思维导图 |
-| `Claude Code 技术架构分析.xmind` | 技术架构分析 |
-| `Claude Code 源码应用方向灵感.xmind` | 应用方向灵感 |
-| `README.md` | 本说明文档 |
-| `RENAME_GUIDE.md` | 名称修改对照表 |
-
+📁 claude-code-source-main/       ← cc的源代码
+📁 Claude Code 提示词整理/        ← 代码中的核心机制的提示词整理
+  📁 01-核心提示词
+  📁 02-Skills提示词
+  📁 03-服务提示词
+  📁 04-工具提示词
+📁 claude code技术分析和应用方向/ ← xmind文档
+  📄 Claude Code CLI — 核心架构方案详解.xmind
+  📄 Claude Code 技术架构分析.xmind
+  📄 Claude Code 源码应用方向灵感.xmind
+📄 README.md
+📄 RENAME_GUIDE.md
 ---
 
 ## 🔧 如何使用
