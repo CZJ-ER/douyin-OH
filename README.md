@@ -23,44 +23,6 @@
 
 **点击右侧绿色的 `<> Code` 按钮 → 在弹窗最下方点击 `zip download` 即可下载源码**
 
-或者直接下载本仓库中的 `claude-code-source-main/` 文件夹。
+打开随便一个ai助手，然后让他根据“RENAME_GUIDE.md”把名字改回去
 
-### 2. 安装依赖
-
-```sh
-cd claude-code-source-main
-npm install
-```
-
-### 3. 全局安装
-
-```sh
-npm install -g .
-```
-
-### 4. 开始使用
-
-```bash
-oh
-```
-
----
-
-## ❓常见问题
-
-**Q: 提示权限不足？**
-```bash
-chmod +x cli.js
-```
-
-**Q: Node 版本不匹配？**
-需要 Node.js 18.0.0 或更高版本
-
-**Q: 如何改回原始名称？**
-查看 [RENAME_GUIDE.md](RENAME_GUIDE.md) 了解所有修改的位置
-
----
-
-## 📜 许可证
-
-MIT License
+然后就是完整的客户端了
